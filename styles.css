@@ -1,0 +1,30 @@
+/* Styles for the header section. For mobile viewport only */
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(56, 56, 56);
+  height: 48px;
+  width: 355px;
+  margin-left: -8px;
+  margin-top: -16px;
+  padding: 10px;
+}
+
+p {
+  color: white;
+  height: 24px;
+  width: 77px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  margin-left: 10px;
+}
+
+img {
+  height: 15px;
+  width: 20px;
+  align-self: center;
+  margin-right: 10px;
+}
