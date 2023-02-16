@@ -1,4 +1,9 @@
 /* Styles for the header section. For mobile viewport only */
+body{
+  background-color: #1C1A19;
+  box-sizing: border-box;
+}
+
 nav ul {
   display: flex;
   justify-content: space-between;
