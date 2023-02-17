@@ -2,34 +2,35 @@
 body{
   background-color: #1C1A19;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
   background-color: rgb(56, 56, 56);
-  height: 48px;
-  width: 355px;
-  margin-left: -8px;
-  margin-top: -16px;
-  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.625em;
+}
+
+nav{
+  width: 100%;
+  background-color: rgb(56, 56, 56);
+  
 }
 
 p {
   color: white;
-  height: 24px;
-  width: 77px;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 17px;
+  font-size: 1.375em;
   font-weight: 700;
-  line-height: 24px;
   letter-spacing: 0;
-  margin-left: 10px;
 }
 
 img {
-  height: 15px;
-  width: 20px;
   align-self: center;
-  margin-right: 10px;
 }
+
+/* Styles for the hero section. For mobile viewport only */
