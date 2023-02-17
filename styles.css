@@ -100,3 +100,49 @@ h4,
   background-size: 50% 50%;
   width: 99%;
 }
+
+/* Styles for work and about section. For mobile viewport only */
+.work-about-container {
+  background-color: white;
+  height: 3455px;
+  width: 375px;
+}
+
+.tittle-container {
+  height: 107.00003051757812px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+}
+
+h2 {
+  height: 83px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+}
+
+.victor {
+  height: 0px;
+  width: 327.00000000000125px;
+  left: 0px;
+  top: 107px;
+  background-color: #212121;
+}
+
+.content-container {
+  height: 568px;
+  width: 375px;
+  left: 0px;
+  top: 0px;
+  padding: 0px 24px 0px 24px;
+}
+
+.content {
+  height: 307px;
+width: 327px;
+left: 24px;
+top: 261px;
+border-radius: 0px;
+
+}
