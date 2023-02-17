@@ -9,17 +9,17 @@ body {
 }
 
 .header-container {
-  display: flex;
-  justify-content: space-between;
   background-color: rgb(56, 56, 56);
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   padding: 0.625em;
+  height: 5.75em;
 }
 
-header {
-  width: 100%;
-  background-color: rgb(56, 56, 56);
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17%;
 }
 
 .logo {
@@ -98,5 +98,7 @@ h4,
   background-position-x: right;
   background-position-y: bottom;
   background-size: 50% 50%;
-  width: 99%;
+  width: 100%;
 }
+
+/* Styles for work and about section. For mobile viewport only */
