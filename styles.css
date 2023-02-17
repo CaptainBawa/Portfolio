@@ -1,6 +1,6 @@
 /* Styles for the header section. For mobile viewport only */
-body{
-  background-color: #1C1A19;
+body {
+  background-color: #1c1a19;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -15,10 +15,9 @@ nav ul {
   padding: 0.625em;
 }
 
-nav{
+nav {
   width: 100%;
   background-color: rgb(56, 56, 56);
-  
 }
 
 p {
@@ -34,3 +33,51 @@ img {
 }
 
 /* Styles for the hero section. For mobile viewport only */
+h1 {
+  font-family: 'Crete Round', 'Helvetica Neue', sans-serif;
+  font-size: 3.5em;
+  font-weight: 700;
+  color: #ff6b00;
+}
+
+h4 {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  color: #fff5e1;
+}
+
+.para {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  font-weight: 540;
+  line-height: 1.5em;
+}
+
+.anchor {
+  width: 100%;
+  display: flex;
+  gap: 1.25em;
+}
+
+.hero {
+  width: 97%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1,
+h4,
+.para,
+.anchor {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.438em;
+}
+
+.social {
+  height: 1.5em;
+  width: 100%;
+}
