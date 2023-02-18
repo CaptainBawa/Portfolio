@@ -16,7 +16,7 @@ body {
   height: 5.75em;
 }
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   margin-top: 17%;
