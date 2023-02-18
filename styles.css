@@ -138,11 +138,172 @@ h2 {
   padding: 0px 24px 0px 24px;
 }
 
+.work-img {
+  height: 237px;
+  width: 327px;
+  left: 24px;
+  top: 0px;
+  border-radius: 0px;
+}
+
 .content {
   height: 307px;
 width: 327px;
 left: 24px;
 top: 261px;
 border-radius: 0px;
+}
+
+h3 {
+  height: 36px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  font-family: Crete Round;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #091E42;
+}
+
+.text {
+  height: 147px;
+  width: 327px;
+  left: 0px;
+  top: 48px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:  #091E42;
+}
+
+.tech-stack {
+  height: 40px;
+  width: 297px;
+  left: 0px;
+  top: 207px;
+}
+
+
+.list-css {
+  height: 40px;
+  width: 49px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993A4;
+
+}
+
+.list-html {
+  height: 40px;
+  width: 56px;
+  left: 61px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993A4;
+
+}
+
+.list-bootstrap {
+  height: 40px;
+  width: 95px;
+  left: 129px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993A4;
+
+}
+
+.list-ruby {
+  height: 40px;
+  width: 61px;
+  left: 236px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993A4;
+
+}
+
+.project1-btn {
+  height: 48px;
+  width: 124px;
+  left: 0px;
+  top: 259px;
+  border-radius: 0px;
+  padding: 12px;
+  background-color: #FF6B00;
+  ;
+
+}
+
+.project1-btn a {
+  height: 24px;
+  width: 100px;
+  left: 12px;
+  top: 12px;
+  color: white;
+
+}
+
+.css {
+  height: 20px;
+  width: 25px;
+  left: 12px;
+  top: 10px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #091E42;
+
+}
+
+.html {
+  height: 20px;
+  width: 32px;
+  left: 12px;
+  top: 10px;
+  color: #091E42;
+
+}
+
+.bootstrap {
+  height: 20px;
+  width: 71px;
+  left: 12px;
+  top: 10px;
+  color: #091E42;
+
+}
+
+.ruby {
+  color: #091E42;
+  height: 20px;
+  width: 37px;
+  left: 12px;
+  top: 10px;
+  
+ 
+}
+
+.css, .html, .bootstrap .ruby {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 
 }
