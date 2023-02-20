@@ -103,8 +103,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [1] **[Make Table Version]**
-- [2] **[Make Desktop Version]**
+- [1] **[Add a contact/form section]**
+- [2] **[Make it responsive]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
