@@ -136,7 +136,7 @@ h4,
   background-color: #1c1a19;
 }
 
-/* Styles for work and about section. For mobile viewport only */
+/* Styles for work section. For mobile viewport only */
 .main-container {
   display: grid;
   grid-template-rows: auto auto auto auto auto auto auto;
@@ -291,23 +291,16 @@ h4,
   line-height: 20px;
 }
 
-.project1-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+button.pro1-text {
   width: 127px;
 }
 
-.project1-btn,
-.projects-btn {
-  background-color: #ff6b00;
-  border: #ff6b00;
-  height: 48px;
-  padding: 12px;
+button.some-pro-text {
+  width: 100%;
 }
 
-.pro1-text,
-.some-pro-text {
+button.pro1-text,
+button.some-pro-text {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -316,6 +309,12 @@ h4,
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  background-color: #ff6b00;
+  border: #ff6b00;
+  height: 48px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
 }
 
 .cards-frame {
@@ -413,13 +412,308 @@ h4,
   line-height: 20px;
 }
 
-.projects-btn {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
 a {
   text-decoration: none;
 }
+
+/* Styles for about section. For mobile viewport only */
+.about-container {
+  width: 375px;
+  height: 1901px;
+  background-color: #1c1a19;
+}
+
+.first-about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 24px;
+  width: 100%;
+  height: 563px;
+}
+
+.about-header {
+  width: 327px;
+  height: 79px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 88px;
+  letter-spacing: 0.28px;
+  color: #ff6b00;
+  margin-bottom: 5%;
+  margin-left: -9%;
+}
+
+.about-para {
+  width: 327px;
+  height: 148px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+button.about-btn-text {
+  width: 161px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  background-color: #ff6b00;
+  border: #ff6b00;
+}
+
+.about-illu {
+  position: relative;
+  left: 58%;
+  right: -99.81%;
+  top: -20%;
+  bottom: 0.07%;
+}
+
+.about-divider {
+  position: absolute;
+  width: 327px;
+  height: 17px;
+  left: 24px;
+  top: 4780px;
+  margin-top: 23%;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 24px;
+  width: 329px;
+  height: 1241.46px;
+  margin-top: 30%;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  gap: 24px;
+  width: 225.46px;
+  height: 281.46px;
+}
+
+.language-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 225.46px;
+  height: 41.46px;
+}
+
+.language-h1 {
+  width: 164px;
+  font-family: 'InaiMathi', sans-serif;
+}
+
+.main-language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  gap: 14%;
+  width: 186px;
+  height: 216px;
+  margin-left: 20%;
+}
+
+.skill-js,
+.skill-rub,
+.skill-html,
+.skill-css {
+  height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.skill-js,
+.skill-html,
+.skill-css {
+  width: 114px;
+}
+
+.skill-rub {
+  width: 162px;
+  margin-left: 27%;
+}
+
+.framework {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15%;
+  gap: 24px;
+  width: 281px;
+  height: 336px;
+}
+
+.framework-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 281px;
+  height: 40px;
+}
+
+.framework-h1,
+.skills-h1,
+.language-h1 {
+  height: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.framework-h1 {
+  width: 227px;
+  font-family: 'Inter', sans-serif;
+}
+
+.main-framework {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+  width: 186px;
+  height: 272px;
+}
+
+.frame-boot,
+.frame-rails,
+.frame-rspec,
+.frame-capy,
+.frame-sel {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  margin-bottom: 15%;
+}
+
+.frame-boot,
+.frame-rspec,
+.frame-capy,
+.frame-sel {
+  width: 114px;
+  height: 24px;
+}
+
+.frame-rails {
+  width: 162px;
+  height: 24px;
+}
+
+.frame-rspec {
+  margin-left: 10%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15%;
+  gap: 24px;
+  width: 169px;
+  height: 336px;
+}
+
+.skills-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 169px;
+  height: 40px;
+  margin-left: -16%;
+}
+
+.skills-h1 {
+  width: 115px;
+  font-family: 'Inter', sans-serif;
+}
+
+.main-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+  width: 138px;
+  height: 272px;
+}
+
+.skill-codekit,
+.skill-github,
+.skill-codepen,
+.skill-gitlab,
+.skill-terminal {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  margin-bottom: 15%;
+}
+
+.skill-terminal,
+.skill-codepen {
+  margin-left: -20%;
+}
+
+button.hover-effect:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button.hover-effect:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+  border: 1px solid #e05304;
+}
+
+button.hover-effect:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: 1px solid #f4f1f0;
+}
+
+/* Next is contact form */
