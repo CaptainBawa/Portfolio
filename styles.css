@@ -281,6 +281,7 @@ h4,
   flex-direction: row;
   align-items: center;
   height: 40px;
+  color: #091e42;
   background-color: #fff;
   border: 1px solid #8993a4;
   box-sizing: border-box;
@@ -345,7 +346,7 @@ button.some-pro-text {
   margin: 28% 0 auto auto;
 }
 
-.no-btn h1 {
+.no-btn h2 {
   width: 295px;
   height: 81px;
   font-family: 'Crete Round', sans-serif;
@@ -354,8 +355,7 @@ button.some-pro-text {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  margin-top: -10%;
-  margin-left: -5%;
+  margin-top: -5%;
 }
 
 .no-btn p {
@@ -368,7 +368,7 @@ button.some-pro-text {
   padding-right: 5%;
   height: 87px;
   color: #fff;
-  margin-top: 8%;
+  margin-top: 3%;
 }
 
 .cards-lists {
@@ -421,6 +421,10 @@ a {
   width: 375px;
   height: 1901px;
   background-color: #1c1a19;
+  background-image: url("./img/about/illustration-about-me-mobile.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 23%;
 }
 
 .first-about-container {
@@ -439,12 +443,11 @@ a {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 62px;
+  font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.28px;
   color: #ff6b00;
   margin-bottom: 5%;
-  margin-left: -9%;
 }
 
 .about-para {
@@ -471,21 +474,10 @@ button.about-btn-text {
   border: #ff6b00;
 }
 
-.about-illu {
-  position: relative;
-  left: 58%;
-  right: -99.81%;
-  top: -20%;
-  bottom: 0.07%;
-}
-
 .about-divider {
-  position: absolute;
   width: 327px;
   height: 17px;
-  left: 24px;
-  top: 4780px;
-  margin-top: 23%;
+  margin: 20% 0 0 7%;
 }
 
 .skills-container {
@@ -539,6 +531,7 @@ button.about-btn-text {
 .skill-rub,
 .skill-html,
 .skill-css {
+  font-family: 'Inter', sans-serif;
   height: 24px;
   font-style: normal;
   font-weight: 400;
