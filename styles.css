@@ -709,3 +709,91 @@ button.hover-effect:disabled {
 }
 
 /* Next is contact form */
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 24px;
+  gap: 58px;
+  width: 375px;
+  height: 844px;
+}
+
+form p {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+}
+
+.input-field {
+  width: 327px;
+  height: 48px; 
+  display: flex;
+  justify-content: center; 
+}
+
+.input-field input {
+  width: 295px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;  
+  color: #979493;
+  border: none;
+  margin-bottom: -10%;
+}
+
+.msg-field {
+  height: 114px;
+  width: 327px;
+  background-color: #FBF8F7;
+  display: flex;
+  justify-content: center; 
+}
+
+.msg-field textarea {
+  height: 90px;
+  width: 303px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3C3A39;
+  background-color: #FBF8F7;
+  border: none;
+}
+
+.form-btn button {
+  padding: 12px;
+  width: 131px;
+  height: 48px;
+  background-color: #FF6B00;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+}
