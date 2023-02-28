@@ -726,7 +726,7 @@ form {
 form p {
   width: 327px;
   height: 216px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -754,7 +754,7 @@ form p {
 
 .input-field input {
   width: 295px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -775,7 +775,7 @@ form p {
 .msg-field textarea {
   height: 90px;
   width: 303px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -791,7 +791,7 @@ form p {
   width: 131px;
   height: 48px;
   background-color: #FF6B00;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
