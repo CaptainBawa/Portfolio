@@ -708,7 +708,7 @@ button.hover-effect:disabled {
   border: 1px solid #f4f1f0;
 }
 
-/*contact form */
+/* contact form */
 .foot-divider {
   width: 100%;
 }
@@ -723,7 +723,7 @@ form {
   height: 844px;
 }
 
-form p {
+.form-p {
   width: 327px;
   height: 216px;
   font-family: 'Inter', sans-serif;
@@ -732,14 +732,14 @@ form p {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .form-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 327px;
   height: 330px;
@@ -747,9 +747,9 @@ form p {
 
 .input-field {
   width: 327px;
-  height: 48px; 
+  height: 48px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .input-field input {
@@ -758,7 +758,7 @@ form p {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;  
+  line-height: 24px;
   color: #979493;
   border: none;
   margin-bottom: -10%;
@@ -767,9 +767,9 @@ form p {
 .msg-field {
   height: 114px;
   width: 327px;
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .msg-field textarea {
@@ -780,8 +780,8 @@ form p {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #3C3A39;
-  background-color: #FBF8F7;
+  color: #3c3a39;
+  background-color: #fbf8f7;
   border: none;
   padding-top: 10px;
 }
@@ -790,13 +790,13 @@ form p {
   padding: 12px;
   width: 131px;
   height: 48px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
   border: none;
   cursor: pointer;
 }
@@ -830,5 +830,5 @@ footer {
 .foot-social {
   width: 24px;
   height: 24px;
-  color: #505F79;
+  color: #505f79;
 }
