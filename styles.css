@@ -708,9 +708,10 @@ button.hover-effect:disabled {
   border: 1px solid #f4f1f0;
 }
 
-/* Next is contact form */
-
-
+/*contact form */
+.foot-divider {
+  width: 100%;
+}
 
 form {
   display: flex;
@@ -782,6 +783,7 @@ form p {
   color: #3C3A39;
   background-color: #FBF8F7;
   border: none;
+  padding-top: 10px;
 }
 
 .form-btn button {
@@ -796,4 +798,37 @@ form p {
   line-height: 24px;
   color: #FFFFFF;
   border: none;
+  cursor: pointer;
+}
+
+.form-btn button:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+footer {
+  width: 375px;
+  height: 72px;
+  margin-top: -23%;
+}
+
+.footer-divider {
+  height: 1px;
+  width: 375px;
+}
+
+.form-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.foot-social {
+  width: 24px;
+  height: 24px;
+  color: #505F79;
 }
