@@ -1,0 +1,182 @@
+@media only screen and (min-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      main {
+        width: 100%;
+        height: 4561px;
+        background-color: #fff;
+        display: grid;
+        grid-template-rows: auto auto auto auto auto auto auto;
+      }
+ 
+    .desktop-navbar-container {
+        display: block;
+        width: 100%;
+        height: 72px;
+        background-color: #3E3C3C;
+    }
+
+    .desktop-navbar {
+        display: flex;
+        gap: 8px;
+        padding: 1.5% 18% 0 10%;
+    }
+
+    .autor {
+        font-family: Inter, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 92px;
+        height: 20px;
+        margin-right: auto;
+    }
+
+    .desk-port {
+        width: 63px;
+        height: 20px;
+    }
+
+    .desk-about {
+        width: 45px;
+        height: 20px;
+    }
+
+    .desk-contact {
+        width: 59px;
+        height: 20px;
+    }
+
+    .desk-contact,
+    .desk-about,
+    .desk-port {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .desktop-navbar a {
+        color: #fff;
+    }
+
+    .mailbox {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+
+    /* Hero styles */
+    .sec-container {
+        width: 100%;
+        height: auto;
+        background-image: url("./desktop-img/Illustration-header.svg");
+        background-size: 1003.13px 769.27px;
+        background-position-y: top;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .desk-hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 192px 0px;
+        gap: 24px;
+        width: 100%;
+        height: 739px;
+        margin-right: 51%;
+    }
+
+    .header {
+        width: 100%;
+        height: 160px;
+        font-family: 'Crete Round', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 82px;
+        padding-left: 0;
+       
+    }
+
+    .sub-header {
+        width: 100%;
+        height: 24px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 44px;
+        padding-left: 0%;
+        margin-left: 0;
+        
+    }
+
+    .para {
+        width: 100%;
+        height: 123px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        padding-left: 0;
+    }
+
+    .anchor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: -1;
+        width: 20px;
+        height: auto;
+        margin-left: 2%;
+    }
+
+   
+
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     /* Turning off mobile view styles */
+    .header-container {
+        display: none;
+    }
+}
+
