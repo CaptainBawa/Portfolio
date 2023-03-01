@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./desktop.css">
     <title>My Portfolio</title>
 </head>
 <body>
     <main>
+        <header class="desktop-navbar-container"> 
+            <nav class="desktop-navbar">
+                <a class="autor" href="./index.html">John Doe</a>  
+                <a class="desk-port" href="./index.html">Portfolio</a> 
+                <a class="desk-about" href="./index.html">About</a> 
+                <a class="desk-contact" href="./index.html">Contact</a>      
+                <img class="mailbox" src="./desktop-img/Icon - Mail.svg" alt="message icon">
+            </nav>
+        </header>
         <header class="header-container"> 
                 <nav class="navbar">
                     <a class="name" href="./index.html">John Doe</a>       
-                    <img class="logo" src="./img/hearder img/Union.png" alt="toggle-icon">
+                    <a href="#"><img class="logo" src="./img/hearder img/Union.png" alt="toggle-icon"></a>
                 </nav>
         </header>
         <section class="sec-container">
             <div class="hero">
-                <h1 class="header">Hey There. I’m Bawa</h1>
-                <h4 class="sub-header">I’am a Software Developer</h4>
-                <p class="para">
-                   I can help you build a product , feature or website Look through some of my work 
-                   and experience! If you like what you see and have a project you need coded, 
-                   don’t hestiate to contact me.
-               </p>
+                <div class="desk-hero-text">
+                    <h1 class="header">Hey There. I’m Bawa</h1>
+                    <h4 class="sub-header">I’am a Software Developer</h4>
+                    <p class="para">
+                       I can help you build a product , feature or website Look through some of my work 
+                       and experience! If you like what you see and have a project you need coded, 
+                       don’t hestiate to contact me.
+                  </p>
+                </div>
                 <ul class="anchor">
-                   <li><a href="#"><img class="social" src="./img/social icons/Icon -GitHub.png" alt="-GitHub-icon"></a></li>
-                   <li><a href="#"><img class="social" src="./img/social icons/Icon - Linkedin.png" alt="Linkedin-icon"></a></li>
-                   <li><a href="#"><img class="social" src="./img/social icons/Icon - Angelist.png" alt="Angelist-icon"></a></li>
-                   <li><a href="#"><img class="social" src="./img/social icons/Icon - Twitter.png" alt="Twitter-icon"></a></li>
-                   <li><a href="#"><img class="social" src="./img/social icons/Icon - Medium.png" alt="Medium-icon"></a></li>
+                        <li><a href="#"><img class="social" src="./img/social icons/Icon -GitHub.png" alt="-GitHub-icon"></a></li>
+                        <li><a href="#"><img class="social" src="./img/social icons/Icon - Linkedin.png" alt="Linkedin-icon"></a></li>
+                        <li><a href="#"><img class="social" src="./img/social icons/Icon - Angelist.png" alt="Angelist-icon"></a></li>
+                        <li><a href="#"><img class="social" src="./img/social icons/Icon - Twitter.png" alt="Twitter-icon"></a></li>
+                        <li><a href="#"><img class="social" src="./img/social icons/Icon - Medium.png" alt="Medium-icon"></a></li>
                 </ul>   
             </div>
         </section>
@@ -40,7 +52,7 @@
                 <img class="vector" src="./img/work/Vector.svg" alt="Vector">
             </div>
             <div class="work-cards">
-                <div class="content-container">   
+                <div class="content-container">  
                     <div class="card1-container">
                         <img class="works-img" src="./img/work/Img Placeholder.svg" alt="image">
                         <div class="card1-content">
@@ -163,7 +175,7 @@
                                 <a href="#"><button class="some-pro-text hover-effect">See Project</button></a>
                             </ul>  
                         </div>
-                    </div>  
+                    </div> 
                 </div>
             </div>
         </section>
