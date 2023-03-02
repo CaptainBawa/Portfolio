@@ -719,13 +719,13 @@ form {
   align-items: flex-start;
   padding: 10px 24px;
   gap: 58px;
-  width: 375px;
-  height: 844px;
+  width: 100%;
+  height: auto;
 }
 
 .form-p {
-  width: 327px;
-  height: 216px;
+  width: 100%;
+  height: auto;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -741,19 +741,19 @@ form {
   align-items: center;
   padding: 0;
   gap: 24px;
-  width: 327px;
-  height: 330px;
+  width: 100%;
+  height: auto;
 }
 
 .input-field {
-  width: 327px;
-  height: 48px;
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
 }
 
 .input-field input {
-  width: 295px;
+  width: 100%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -762,19 +762,20 @@ form {
   color: #979493;
   border: none;
   margin-bottom: -10%;
+  padding: 5px;
 }
 
 .msg-field {
-  height: 114px;
-  width: 327px;
+  height: auto;
+  width: 100%;
   background-color: #fbf8f7;
   display: flex;
   justify-content: center;
 }
 
 .msg-field textarea {
-  height: 90px;
-  width: 303px;
+  height: auto;
+  width: 100%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -783,7 +784,7 @@ form {
   color: #3c3a39;
   background-color: #fbf8f7;
   border: none;
-  padding-top: 10px;
+  padding: 5px;
 }
 
 .form-btn button {
@@ -808,14 +809,14 @@ form {
 }
 
 footer {
-  width: 375px;
-  height: 72px;
-  margin-top: -23%;
+  width: 100%;
+  height: auto;
+  margin-top: 0;
 }
 
 .footer-divider {
   height: 1px;
-  width: 375px;
+  width: 100%;
 }
 
 .form-social {
@@ -837,3 +838,7 @@ footer {
 .desktop-navbar-container {
   display: none;
 }
+
+/* .desk-about-divider {
+  display: none;
+} */
