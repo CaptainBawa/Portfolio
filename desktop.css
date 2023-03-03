@@ -261,6 +261,11 @@
   .works-img {
     width: 684px;
     height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .works-img:hover {
+    transform: scale(1.1);
   }
 
   .card1-content {
