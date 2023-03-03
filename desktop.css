@@ -49,6 +49,17 @@
     width: 92px;
     height: 20px;
     margin-right: auto;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
   }
 
   .desk-port {
