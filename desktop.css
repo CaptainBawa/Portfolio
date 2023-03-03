@@ -429,6 +429,10 @@
     margin-top: 125px;
   }
 
+  .foot-social:hover {
+    transform: scale(1.1);
+  }
+
   .form-divider img {
     display: none;
   }
