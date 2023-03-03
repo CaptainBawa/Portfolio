@@ -37,6 +37,17 @@
     gap: 32px;
     height: inherit;
     padding: 0 3%;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+  }
+
+  @keyframes slideInFromRight {
+    100% {
+      transform: translateX(0);
+    }
+
+    0% {
+      transform: translateX(-10%);
+    }
   }
 
   .autor {
@@ -262,6 +273,10 @@
     width: 684px;
     height: auto;
     transition: transform 0.3s ease-in-out;
+  }
+
+  .social:hover {
+    background-color: red;
   }
 
   .works-img:hover {
