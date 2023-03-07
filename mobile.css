@@ -108,7 +108,7 @@ li {
 }
 
 h1,
-h4,
+.sub-header,
 .para,
 .anchor {
   width: 90%;
