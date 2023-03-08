@@ -310,8 +310,8 @@ button.some-pro-text {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #943E00;
-  border: #943E00;
+  background-color: #943e00;
+  border: #943e00;
   height: 48px;
   padding: 12px;
   display: flex;
@@ -354,7 +354,7 @@ button.some-pro-text {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: -5%;
 }
 
@@ -367,7 +367,7 @@ button.some-pro-text {
   width: 295px;
   padding-right: 5%;
   height: 87px;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 3%;
 }
 
@@ -470,8 +470,8 @@ button.about-btn-text {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  background-color: #943E00;
-  border: #943E00;
+  background-color: #943e00;
+  border: #943e00;
 }
 
 .about-divider {
@@ -691,21 +691,21 @@ button.about-btn-text {
 }
 
 button.hover-effect:hover {
-  background-color: #FFF5E1;
-  border: 1px solid #FFF5E1;
-  color: #8A3200;
+  background-color: #fff5e1;
+  border: 1px solid #fff5e1;
+  color: #8a3200;
 }
 
 button.hover-effect:active {
-  background-color: #8C3503;
-  color: #F4F1F0;
-  border: 1px solid #8C3503;
+  background-color: #8c3503;
+  color: #f4f1f0;
+  border: 1px solid #8c3503;
 }
 
 button.hover-effect:disabled {
-  background-color: #F4F1F0;
-  color: #4A4A45;
-  border: 1px solid #F4F1F0;
+  background-color: #f4f1f0;
+  color: #4a4a45;
+  border: 1px solid #f4f1f0;
 }
 
 /* contact form */
@@ -795,7 +795,7 @@ form {
   padding: 12px;
   width: 131px;
   height: 48px;
-  background-color: #8F3400;
+  background-color: #8f3400;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -807,9 +807,9 @@ form {
 }
 
 .form-btn button:hover {
-  background-color: #FFF5E1;
-  border: 1px solid #FFF5E1;
-  color: #8A3200;
+  background-color: #fff5e1;
+  border: 1px solid #fff5e1;
+  color: #8a3200;
 }
 
 footer {
