@@ -21,6 +21,7 @@
 
 
 **[Portfolio]** is a project aim to help me understand how to parse a Figma design to create a responsive UI design. 
+Here is a video walkthrough of my portfolio project: https://www.loom.com/share/1d83d62a41e24c6396ac263ada5776ca
 
 ## 🛠 Built With <a name="built-with"></a>
 
