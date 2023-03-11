@@ -6,10 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./mobile.css">
     <link rel="stylesheet" href="./desktop.css">
+    <script src="./index.js" defer></script>
     <title>My Portfolio Project Homepage</title>
 </head>
 <body>
     <main>
+        <header class="header-container"> 
+            <nav class="navbar">
+                <!-- Hamburger Popup Starts Here -->
+                <div class="ham-div">
+                    <ul class="ham-container">
+                        <li class="ham-list"><a class="ham-items" href="#">Portfolio</a></li>
+                        <li class="ham-list"><a class="ham-items" href="#">About</a> </li>
+                        <li class="ham-list"><a class="ham-items" href="#">Contact</a></li>
+                    </ul>
+                    <a type="button" class="ham-close">&#x2716;</a>
+                </div>
+                <!-- Hamburger Popup Ends Here -->
+
+                 <!-- NavBar Logo And Hamburger Starts Here -->
+                <a class="name" href="./index.html">John Doe</a>       
+                <a href="#"><img class="logo" src="./img/hearder-img/Union.png" alt="Hamburger"></a>
+                <!-- NavBar Logo And Hamburger Ends Here -->
+            </nav>
+        </header>
         <header class="desktop-navbar-container"> 
             <nav class="desktop-navbar">
                 <a class="autor" href="./index.html">John Doe</a>  
@@ -19,12 +39,7 @@
                 <img class="mailbox" src="./desktop-img/Icon-Mail.svg" alt="mailbox icon">
             </nav>
         </header>
-        <header class="header-container"> 
-                <nav class="navbar">
-                    <a class="name" href="./index.html">John Doe</a>       
-                    <a href="#"><img class="logo" src="./img/hearder-img/Union.png" alt="Hamburger"></a>
-                </nav>
-        </header>
+
         <section class="sec-container">
             <div class="hero">
                 <div class="desk-hero-text">
