@@ -878,3 +878,145 @@ footer {
 .desktop-navbar-container {
   display: none;
 }
+
+/* <!-- Popup Styles Starts Here --> */
+.popup-div {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  width: 100vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.pop-content {
+  background-color: white;
+  padding: 20px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.tittle-close {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop-close-btn {
+  font-size: 24px;
+  color: #67798e;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 14%;
+  bottom: 91.5%;
+}
+
+.pop-title {
+  width: 259px;
+  height: 82px;
+  margin-top: 0;
+  padding-bottom: 2%;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.flex-img_descrip_btns {
+  width: 100%;
+  height: auto;
+}
+
+.flex-descrip-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+.pop-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.pop-descrip {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.pop-btns {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pop-btns a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pop-tech {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.popup__technologies a {
+  width: 100%;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3c3a39;
+}
+
+.pop-html,
+.pop-boot,
+.pop-ruby {
+  border: 2px solid #979493;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+}
+
+.pop-btn {
+  width: 134px;
+  height: 48px;
+  padding: 2%;
+  color: white;
+  background-color: #ff6b00;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+/* <!-- Popup Styles Ends Here --> */
