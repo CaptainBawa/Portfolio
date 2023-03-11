@@ -22,10 +22,46 @@ main {
   height: 5.75em;
 }
 
+.ham-container {
+  width: 100%;
+  height: 47.188em;
+  background-color: #3c3a39;
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+  padding-top: 10%;
+}
+
+.ham-div {
+  display: none;
+}
+
+.ham-container .ham-list {
+  border-bottom: 2px solid  #6f6c6b;
+}
+
+.ham-close {
+  color: #fff;
+  position: absolute;
+  right: 5%;
+}
+
+.ham-items {
+  color: #fff5e1;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  padding: 0 12%;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 
 .name {
