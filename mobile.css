@@ -916,14 +916,13 @@ footer {
 }
 
 .pop-title {
-  width: 16.188em;
+  width: 100%;
   margin-top: 0;
   padding-bottom: 10%;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2em;
-  line-height: 2.75em;
   color: #172b4d;
 }
 
