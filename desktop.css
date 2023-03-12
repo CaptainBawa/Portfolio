@@ -441,4 +441,41 @@
   .header-container {
     display: none;
   }
+
+  /* <!-- Popup Styles Starts Here --> */
+  .flex-img_descrip_btns {
+    display: flex;
+  }
+
+  .pop-title {
+    padding: 0;
+  }
+
+  .pop-tech {
+    margin-bottom: 0;
+    gap: 2%;
+    padding: 2% 0;
+  }
+
+  .pop-img {
+    margin: 0;
+  }
+
+  .pop-descrip {
+    width: 95%;
+    margin-left: auto;
+  }
+
+  .pop-btns {
+    justify-content: flex-start;
+    gap: 3%;
+    padding: 0;
+    margin-left: 5%;
+  }
+
+  .pop-btn {
+    padding: 0;
+  }
+
+  /* <!-- Popup Styles Ends Here --> */
 }
