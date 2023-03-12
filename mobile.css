@@ -883,12 +883,12 @@ footer {
 .popup-div {
   position: absolute;
   top: 3%;
-  left: 5%;
   width: 100vw;
   height: auto;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1000;
   transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
 }
 
 .pop-content {
@@ -899,6 +899,8 @@ footer {
   overflow-y: auto;
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  left: 5%;
 }
 
 .tittle-close {
