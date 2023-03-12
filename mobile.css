@@ -893,41 +893,37 @@ footer {
 
 .pop-content {
   background-color: white;
-  padding: 20px;
+  padding: 1.25em;
   max-width: 90%;
   max-height: 90%;
   overflow-y: auto;
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  text-align: center;
 }
 
 .tittle-close {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .pop-close-btn {
-  font-size: 24px;
+  font-size: 1.5em;
   color: #67798e;
   background-color: transparent;
   border: none;
   cursor: pointer;
-  position: absolute;
-  right: 14%;
-  bottom: 91.5%;
 }
 
 .pop-title {
-  width: 259px;
-  height: 82px;
+  width: 16.188em;
   margin-top: 0;
-  padding-bottom: 2%;
+  padding-bottom: 10%;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 2em;
+  line-height: 2.75em;
   color: #172b4d;
 }
 
@@ -947,15 +943,15 @@ footer {
 .pop-img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 
 .pop-descrip {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1em;
+  line-height: 1.5em;
   color: #344563;
 }
 
@@ -988,8 +984,8 @@ footer {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75em;
+  line-height: 1em;
   color: #3c3a39;
 }
 
@@ -997,16 +993,16 @@ footer {
 .pop-boot,
 .pop-ruby {
   border: 2px solid #979493;
-  height: 36px;
+  height: 2.25em;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px 12px;
+  padding: 0.625em 0.75em;
 }
 
 .pop-btn {
-  width: 134px;
-  height: 48px;
+  width: 8.375em;
+  height: 3em;
   padding: 2%;
   color: white;
   background-color: #ff6b00;
@@ -1015,8 +1011,8 @@ footer {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1.063em;
+  line-height: 1.5em;
 }
 
 /* <!-- Popup Styles Ends Here --> */
