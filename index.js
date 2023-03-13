@@ -30,5 +30,4 @@ closeHam.addEventListener('click', closeHamburger);
 hamItems.forEach((item) => {
   item.addEventListener('click', closeHamburger);
 });
-
 // Hamburger Ends Here.
