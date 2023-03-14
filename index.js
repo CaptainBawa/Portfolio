@@ -44,6 +44,7 @@ const firstCard = document.querySelector('.card1-container');
 const firstProject = {
   id: 1,
   title: 'Multi-Post Stories',
+  image: 'Img-Placeholder.svg',
   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   tech1: 'css',
   tech2: 'html',
@@ -58,7 +59,7 @@ const firstProject = {
  first project card.
  */
 function firstProjectFunction() {
-  firstCard.innerHTML = `<img class="works-img" src="./img/work/Img-Placeholder.svg" alt="Gym-fit exercise with gray and gold color mix and a text color of black">
+  firstCard.innerHTML = `<img class="works-img" src="./img/work/${firstProject.image}" alt="Gym-fit exercise with gray and gold color mix and a text color of black">
   <div class="card1-content">
       <h3 class="works-header">${firstProject.title}</h3>
       <p class="works-txt">${firstProject.description}</p>
