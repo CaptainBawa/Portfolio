@@ -68,7 +68,7 @@ function firstProjectFunction() {
               <li><a href="#" class="boot">${firstProject.tech3}</a></li>
               <li><a href="#" class="ruby">${firstProject.tech4}</a></li>
       </ul>
-      <button class="pro1-text hover-effect fire-popup">${firstProject.button}</button>
+      <button class="pro1-text hover-effect" onclick='firePopUp()'>${firstProject.button}</button>
   </div>`;
 }
 
@@ -157,7 +157,7 @@ function remainingProjectFunc() {
              <li><a href="#" class="ruby-btn">${project.tech3}</a></li>
           </ul>
         </div>
-        <button class="some-pro-text hover-effect fire-popup">${project.button}</button> 
+        <button class="some-pro-text hover-effect" onclick='firePopUp()'>${project.button}</button> 
      </div>`;
   });
 }
@@ -168,8 +168,13 @@ function remainingProjectFunc() {
 window.addEventListener('load', remainingProjectFunc);
 
 // Popup Window Starts Here.
+
+/* The `const popUp = document.querySelector('.pop-container');` is selecting the
+`pop-container` class from the DOM.
+*/
 const popUp = document.querySelector('.pop-container');
 
+/* Creating an object for the popup window. */
 const popUpWindow = {
   title: 'Keeping track of hundreds  of components website',
   description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
@@ -180,14 +185,18 @@ const popUpWindow = {
   button2: 'See Source',
 };
 
+/*
+  The function popUpFunc() is called when the user clicks on the project button. It creates a popup
+  window with the project title, tech used, description, and buttons to the live site
+  and github repo
+ */
 function popUpFunc() {
-  popUp.setAttribute('style', 'display: block');
   popUp.innerHTML = `
   <div class="popup-div">
   <div class="pop-content">
       <div class="tittle-close">
           <h2 class="pop-title">${popUpWindow.title}</h2>
-          <button class="pop-close-btn">&times;</button>
+          <button class="pop-close-btn" onclick='closePopWindow()'>&times;</button>
       </div>
     <ul class="pop-tech">
       <li class="pop-html"><a href="">${popUpWindow.tech1}</a></li>
@@ -207,17 +216,29 @@ function popUpFunc() {
   </div>
 </div>`;
 }
-// window.addEventListener('load', popUpFunc);
-// popUp.setAttribute('style', 'display: block');
+/* The `window.addEventListener('load', popUpFunc);` is listening for the load event.
+When the load event is triggered, the popUpFunc is called.
+*/
+window.addEventListener('load', popUpFunc);
 
-// Button Click Event To Fire PopUp Window Starts Here.
-const btns = document.querySelectorAll('.fire-popup');
+// Displaying And Closing Of PopUp Window Starts Here.
 
+/*
+ The function is called when the user clicks on the projects button. The function sets
+ the display attribute of the popUp element to block
+ */
 function firePopUp() {
-  btns.forEach((btn) => btn.addEventListener('click', console.log('clicked')));
+  popUp.setAttribute('style', 'display: block');
 }
-firePopUp();
-// Button Click Event To Fire PopUp Window Ends Here.
+
+/*
+ The function is called when the user clicks on the close button. The function sets the display
+ attribute of the popUp div to none, which hides the popUp div.
+ */
+function closePopWindow() {
+  popUp.setAttribute('style', 'display: none');
+}
+// Displaying And Closing Of PopUp Window Starts Here.
 
 // Popup Window Ends Here.
 
