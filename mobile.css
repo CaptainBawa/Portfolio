@@ -881,7 +881,7 @@ footer {
 
 /* <!-- Popup Styles Starts Here --> */
 .popup-div {
-  position: absolute;
+  position: fixed;
   top: 3%;
   width: 100vw;
   height: auto;
