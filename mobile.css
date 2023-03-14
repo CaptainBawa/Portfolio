@@ -884,7 +884,7 @@ footer {
   position: fixed;
   top: 3%;
   width: 100vw;
-  height: auto;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1000;
   transition: all 0.3s ease;
