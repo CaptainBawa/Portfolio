@@ -1,5 +1,7 @@
 // Hamburger Starts Here.
 
+const { pop } = require("core-js/core/array");
+
 /* Selecting the elements from the DOM. */
 const openHam = document.querySelector('.logo');
 // const navBar = document.querySelector('.navbar');
@@ -182,7 +184,7 @@ const popUpWindow = {
   tech1: 'css',
   tech2: 'Bootstrap',
   tech3: 'Ruby on rails',
-  button1: 'See Live',
+  button1: 'See Live', 
   button2: 'See Source',
 };
 
@@ -231,6 +233,7 @@ window.addEventListener('load', popUpFunc);
 function firePopUp() {
   popUp.setAttribute('style', 'display: block');
 }
+popUp.addEventListener('click',firePopUp)
 
 /*
  The function is called when the user clicks on the close button. The function sets the display
@@ -239,6 +242,7 @@ function firePopUp() {
 function closePopWindow() {
   popUp.setAttribute('style', 'display: none');
 }
+closePopWindow();
 // Displaying And Closing Of PopUp Window Starts Here.
 
 // Popup Window Ends Here.
