@@ -37,7 +37,7 @@ hamItems.forEach((item) => {
 
 /* The `const firstCard = document.querySelector('.card1-container');` is selecting the
 `card1-container` class from the DOM. */
-const firstCard = document.querySelector('.card1-container');
+const card_container = document.querySelector('.content-container');
 
 /* Creating an object for the first project card */
 const firstProject = {
@@ -58,7 +58,9 @@ const firstProject = {
  first project card.
  */
 function firstProjectFunction() {
-  firstCard.innerHTML = `<img class="works-img" src="./img/work/${firstProject.image}" alt="Gym-fit exercise with gray and gold color mix and a text color of black">
+  const card1 = document.createElement('div');
+  card1.classList.add('card1-container');
+  card1.innerHTML = `<img class="works-img" src="./img/work/${firstProject.image}" alt="Gym-fit exercise with gray and gold color mix and a text color of black">
   <div class="card1-content">
       <h3 class="works-header">${firstProject.title}</h3>
       <p class="works-txt">${firstProject.description}</p>
@@ -70,6 +72,7 @@ function firstProjectFunction() {
       </ul>
       <button class="pro1-text hover-effect" onclick='firePopUp()'>${firstProject.button}</button>
   </div>`;
+  card_container.appendChild(card1);
 }
 
 /* Adding an event listener to the window object. The event listener
@@ -80,7 +83,7 @@ window.addEventListener('load', firstProjectFunction);
 
 /* The `const remainingCards = document.querySelector('.cards-frame');` is selecting the
 `cards-frame` class from the DOM. */
-const remainingCards = document.querySelector('.cards-frame');
+// const remainingCards = document.querySelector('.cards-frame');
 
 /* Creating an array of objects for the remaining project cards. */
 const remainingProjects = [
@@ -146,8 +149,12 @@ const remainingProjects = [
  tech1, tech2, tech3, and button to the remainingCards div
  */
 function remainingProjectFunc() {
+  const remainingcards = document.createElement('div');
+  remainingcards.classList.add('cards-frame');
   remainingProjects.forEach((project) => {
-    remainingCards.innerHTML += `<div class="all-cards">            
+    const allcards = document.createElement('div');
+    allcards.classList.add('all-cards');
+    allcards.innerHTML = `           
        <div class="no-btn">
           <h2>${project.title}</h2>
           <p>${project.description}</p>
@@ -158,15 +165,17 @@ function remainingProjectFunc() {
           </ul>
         </div>
         <button class="some-pro-text hover-effect" onclick='firePopUp()'>${project.button}</button> 
-     </div>`;
+      `;
+     remainingcards.appendChild(allcards);
+     card_container.appendChild(remainingcards);
   });
 }
-// Popup  And Dynamic Html Ends Here.
 
 /* The `window.addEventListener('load', remainingProjectFunc);` is listening for the load event.
  When the load event is triggered, the remainingProjectFunc is called.
 */
 window.addEventListener('load', remainingProjectFunc);
+// Popup  And Dynamic Html Ends Here.
 
 // Popup Window Starts Here.
 
