@@ -2,7 +2,6 @@
 
 /* Selecting the elements from the DOM. */
 const openHam = document.querySelector('.logo');
-// const navBar = document.querySelector('.navbar');
 const hamDiv = document.querySelector('.ham-div');
 const closeHam = document.querySelector('.ham-close');
 const hamItems = document.querySelectorAll('.ham-items');
@@ -247,3 +246,4 @@ closePopWindow();
 // Displaying And Closing Of PopUp Window Starts Here.
 
 // Popup Window Ends Here.
+// Hamburger Ends Here.
