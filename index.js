@@ -37,7 +37,7 @@ hamItems.forEach((item) => {
 
 /* The `const firstCard = document.querySelector('.card1-container');` is selecting the
 `card1-container` class from the DOM. */
-const card_container = document.querySelector('.content-container');
+const cardContainer = document.querySelector('.content-container');
 
 /* Creating an object for the first project card */
 const firstProject = {
@@ -53,9 +53,9 @@ const firstProject = {
 };
 
 /*
- The function is called firstProjectFunction and it is called when the page loads.
- The function then replaces the innerHTML of the allProjects div with the
- first project card.
+ The function creates a div element with a class of card1-container, then it adds an image,
+ a header,
+ a paragraph, a list of technologies used, and a button to the div element
  */
 function firstProjectFunction() {
   const card1 = document.createElement('div');
@@ -72,7 +72,7 @@ function firstProjectFunction() {
       </ul>
       <button class="pro1-text hover-effect" onclick='firePopUp()'>${firstProject.button}</button>
   </div>`;
-  card_container.appendChild(card1);
+  cardContainer.appendChild(card1);
 }
 
 /* Adding an event listener to the window object. The event listener
@@ -83,7 +83,6 @@ window.addEventListener('load', firstProjectFunction);
 
 /* The `const remainingCards = document.querySelector('.cards-frame');` is selecting the
 `cards-frame` class from the DOM. */
-// const remainingCards = document.querySelector('.cards-frame');
 
 /* Creating an array of objects for the remaining project cards. */
 const remainingProjects = [
@@ -145,8 +144,10 @@ const remainingProjects = [
 ];
 
 /*
- The function loops through the remainingProjects array and adds the project's title, description,
- tech1, tech2, tech3, and button to the remainingCards div
+ The function creates a div element with a class of cards-frame, then loops through the
+ remainingProjects array and creates a div element with a class of all-cards, then adds the project
+ title, description, and tech used to the div element, and finally appends the div element to the
+ cards-frame div element
  */
 function remainingProjectFunc() {
   const remainingcards = document.createElement('div');
@@ -166,8 +167,8 @@ function remainingProjectFunc() {
         </div>
         <button class="some-pro-text hover-effect" onclick='firePopUp()'>${project.button}</button> 
       `;
-     remainingcards.appendChild(allcards);
-     card_container.appendChild(remainingcards);
+    remainingcards.appendChild(allcards);
+    cardContainer.appendChild(remainingcards);
   });
 }
 
