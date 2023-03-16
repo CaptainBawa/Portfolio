@@ -128,12 +128,13 @@
             <form action="https://formspree.io/f/xnqyvjrp" method="post" id="form-sec">
             <p class="form-p">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>   
                     <ul class="form-list">
-                        <li class="input-field desk-same"><input type="text" name="user" placeholder="Full name" maxlength="30" required></li>
+                        <li class="input-field desk-same"><input type="text" name="user" id="username" placeholder="Full name" maxlength="30" required></li>
                         <li class="form-divider"><img src="./img/Container.svg" alt="null"></li>
-                        <li class="input-field desk-same"><input type="email" name="mail" placeholder="Email address" required></li>
+                        <li class="input-field desk-same"><input type="email" name="mail" id="email" placeholder="Email address"></li>
                         <li class="form-divider"><img src="./img/Container.svg" alt="null"></li>
-                        <li class="msg-field"><textarea name="msg" maxlength="500" placeholder="Enter text here"></textarea></li>
+                        <li class="msg-field"><textarea name="msg" maxlength="500" id="textarea" placeholder="Enter text here"></textarea></li>
                         <li class="form-btn"><button type="submit">Get in touch</button></li>
+                        <span class="error"></span>
                     </ul>
             </form> 
             <footer>
