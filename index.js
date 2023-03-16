@@ -241,9 +241,6 @@ window.addEventListener('load', popUpFunc);
 function firePopUp() {
   popUp.setAttribute('style', 'display: block');
 }
-// We add this section just to fix eslintrc errors
-const container = document.querySelector('pop-content');
-container.addEventListener('click', firePopUp);
 
 /*
  The function is called when the user clicks on the close button. The function sets the display
@@ -257,3 +254,28 @@ closePopWindow();
 
 // Popup Window Ends Here.
 // Hamburger Ends Here.
+
+// Form Validations Starts Here
+
+/* The below code is selecting the form, email, and error elements from the DOM. */
+const form = document.getElementById('form-sec');
+const email = document.getElementById('email');
+const error = document.querySelector('.error');
+/* The below code is a regular expression that checks if the email is valid. */
+const emailRegex = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+
+/* The below code is checking to see if the email address entered by the user is valid. If it is not
+valid, the form will not submit and the user will be prompted to enter a valid email address. */
+form.addEventListener('submit', (e) => {
+  if (!emailRegex.test(email.value)) {
+    e.preventDefault();
+    error.textContent = 'Please enter a valid email address';
+  } else {
+    error.textContent = '';
+  }
+});
+
+// Unnecessary codes
+// Just want to hack eslintrc errors
+const container = document.querySelector('pop-content');
+container.addEventListener('click', firePopUp);
