@@ -1020,12 +1020,14 @@ footer {
 
 /* <!-- Popup Styles Ends Here --> */
 
-.error{
-  font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-color:red;
-
+/* Form Validation Styles Starts Here */
+.error {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: red;
 }
+
+/* Form Validation Styles Ends Here */
