@@ -300,11 +300,15 @@ function storeLocalStorageInfo() {
 When the input event is triggered, the setLocalStorage function is called. */
 form.addEventListener('input', storeLocalStorageInfo);
 
+/*
+ The function gets the information from local storage and parses it into a JavaScript object
+*/
 function getLocalStorageInfo() {
   const getInfo = JSON.parse(localStorage.getItem('contactInfo'));
- username.value = getInfo.userName;
- email.value = getInfo.userEmail;
- textarea.value = getInfo.userText;
+
+  username.value = getInfo.userName;
+  email.value = getInfo.userEmail;
+  textarea.value = getInfo.userText;
 }
 /* Getting the user's information from local storage and displaying it in the form. */
 getLocalStorageInfo();
