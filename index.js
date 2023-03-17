@@ -275,6 +275,39 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+// Local Storage Starts Here
+
+const username = document.getElementById('username');
+const textarea = document.getElementById('textarea');
+// I should have get the form elements and the email fields from the DOM using getElementById or
+// querySelector but I already have them when validating the email address so I will use that here
+// rather than calling them again.
+
+/*
+ Creating an object called userInfo that contains the values of the username, email, and
+ textarea inputs. Then am using the localStorage.setItem() method to store the userInfo object
+ in local storage
+ */
+function storeLocalStorageInfo() {
+  const setInfo = {
+    userName: username.value,
+    userEmail: email.value,
+    userText: textarea.value,
+  };
+  localStorage.setItem('contactInfo', JSON.stringify(setInfo));
+}
+
+/* The form.addEventListener('input', setLocalStorage); is listening for the input event.
+When the input event is triggered, the setLocalStorage function is called. */
+form.addEventListener('input', storeLocalStorageInfo);
+
+function getLocalStorageInfo() {
+  const getInfo = JSON.parse(localStorage.getItem('contactInfo'));
+}
+/* Getting the user's information from local storage and displaying it in the form. */
+getLocalStorageInfo();
+// Local Storage Ends Here
+
 // Unnecessary codes
 // Just want to hack eslintrc errors
 const container = document.querySelector('pop-content');
