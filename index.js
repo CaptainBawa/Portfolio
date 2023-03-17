@@ -302,9 +302,13 @@ form.addEventListener('input', storeLocalStorageInfo);
 
 function getLocalStorageInfo() {
   const getInfo = JSON.parse(localStorage.getItem('contactInfo'));
+ username.value = getInfo.userName;
+ email.value = getInfo.userEmail;
+ textarea.value = getInfo.userText;
 }
 /* Getting the user's information from local storage and displaying it in the form. */
 getLocalStorageInfo();
+
 // Local Storage Ends Here
 
 // Unnecessary codes
