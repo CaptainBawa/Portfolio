@@ -276,7 +276,6 @@ form.addEventListener('submit', (e) => {
 });
 
 // Local Storage Starts Here
-
 const username = document.getElementById('username');
 const textarea = document.getElementById('textarea');
 // I should have get the form elements and the email fields from the DOM using getElementById or
